@@ -6,7 +6,7 @@ name: weixin-push-on-time
 on:
   workflow_dispatch:
   schedule:
-    # 每天国际时间 23:30 运行, 即北京时间 7:30 运行
+    # 在此修改时间，第一个数字代表分钟，第二个代表小时，用小时+8为中国时间，同时github的action可能会延迟发送。
     - cron: '00 10 * * *'
     
 jobs:
