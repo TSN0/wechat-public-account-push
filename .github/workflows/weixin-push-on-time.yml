@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   schedule:
     # 在此修改时间，第一个数字代表分钟，第二个代表小时，用小时+8为中国时间，同时github的action可能会延迟发送。
-    - cron: '18 14 * * *'
+    - cron: '00 22 * * *'
     
 jobs:
   build:
