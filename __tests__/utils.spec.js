@@ -99,6 +99,15 @@ describe('utils', () => {
       area_code: null,
       ctime: '2019-07-11 16:33:41',
     })
+    expect(getWeatherCityInfo('河北', '张家口')).toEqual({
+            area_code: '0313',
+            city_code: '101090301',
+            city_name: '张家口',
+            ctime: '2019-07-11 17:31:01',
+            id: 147,
+            pid: 9,
+            post_code: '466000',
+    })
     expect(getWeatherCityInfo('北京市', '顺义区')).toEqual({
       area_code: '010',
       city_code: '101010400',
