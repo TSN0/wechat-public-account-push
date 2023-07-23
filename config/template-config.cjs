@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的子颖宝贝, 早上好',
+    title: '亲爱的宝贝, 早上好',
     desc: `
       🗓️{{date.DATA}}
       城市：{{city.DATA}}
