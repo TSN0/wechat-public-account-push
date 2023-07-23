@@ -2,18 +2,19 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 宝贝',
+    title: '亲爱的子颖宝贝, 早上好',
     desc: `
-        🗓️{{date.DATA}}
-        
-        今天是我们在一起的第{{love_day.DATA}}天，爱你❤️
-        
-        今日{{city.DATA}}天气☁️：{{tian_api_weather_weather_0.DATA}}
-        温度🌡️: {{tian_api_weather_lowest_0.DATA}}-{{tian_api_weather_highest_0.DATA}}
-        紫外线强度指数☀️: {{tian_api_weather_uv_index_0.DATA}}
-        穿衣指数👚: {{tian_api_weather_tips_0.DATA}}
-        
-        💌{{earthy_love_words.DATA}}
+      🗓️{{date.DATA}}
+      城市：{{city.DATA}}
+      天气☁️：{{weather.DATA}}
+      温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}}
+      我们恋爱{{love_day.DATA}}天啦！
+      你的生日还有{{birthday_message.DATA}}天，不要着急哦！
+      💗：{{earthy_love_words.DATA}}
+      每日一句😋
+      中文：{{note_ch.DATA}}
+      English：{{note_en.DATA}}
+      和{{poetry_author.DATA}}约个会：{{poetry_content.DATA}}
     `
   },
   {
