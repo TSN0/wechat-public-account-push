@@ -12,7 +12,7 @@ const TEMPLATE_CONFIG = [
       你的阴历生日还有{{yin_birthday_day.DATA}}天！
       你的阳历生日还有{{yang_birthday_day.DATA}}天！
       💗：{{earthy_love_words.DATA}}
-      每日都好爱你，给你一句😋
+      每日都好爱你，给你我的爱😋
       中文：{{note_ch.DATA}}
       English：{{note_en.DATA}}
       和{{poetry_author.DATA}}约个会：{{poetry_content.DATA}}
