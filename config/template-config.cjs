@@ -7,15 +7,15 @@ const TEMPLATE_CONFIG = [
       🗓️{{date.DATA}}
       城市：{{city.DATA}}
       天气☁️：{{weather.DATA}}
-      温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}}
+      温度🌡️: {{min_temperature.DATA}}℃--{{max_temperature.DATA}}℃
+      ❤️{{notice.DATA}}
       我们恋爱{{love_day.DATA}}天啦！
       你的阴历生日还有{{yin_birthday_day.DATA}}天！
       你的阳历生日还有{{yang_birthday_day.DATA}}天！
+      距离2023考研还剩{{kaoyan_birthday_day.DATA}}天，请继续加油！
       💗：{{earthy_love_words.DATA}}
-      每日都好爱你，给你我的爱😋
-      中文：{{note_ch.DATA}}
-      English：{{note_en.DATA}}
-      和{{poetry_author.DATA}}约个会：{{poetry_content.DATA}}
+      今日综合运势：{{comprehensive_horoscope.DATA}}
+      亲爱的，美好的一天开始了，请继续努力啊！
     `
   },
   {
