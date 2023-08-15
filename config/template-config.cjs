@@ -12,9 +12,8 @@ const TEMPLATE_CONFIG = [
       我们恋爱{{love_day.DATA}}天啦！
       你的阴历生日还有{{yin_birthday_day.DATA}}天！
       你的阳历生日还有{{yang_birthday_day.DATA}}天！
-      距离2023考研还剩{{kaoyan_birthday_day.DATA}}天，请继续加油！
-      💗：{{earthy_love_words.DATA}}
-      今日综合运势：{{comprehensive_horoscope.DATA}}
+      距离2023考研还剩{{kaoyan_day.DATA}}天，请继续加油！
+      💗：{{comprehensive_horoscope.DATA}}
       亲爱的，美好的一天开始了，请继续努力啊！
     `
   },
